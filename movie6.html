@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="C:\Users\lolo\OneDrive\Desktop\is project\index.css.css">
+    </head>
+    <body>
+        <div class="navbar">
+			<a href="index.html.html">Home</a>
+			
+			<a href="snacks.html">Snacks</a>
+		  </div>
+      <br>
+     
+    <head>
+<link rel="stylesheet" href="C:\Users\lolo\OneDrive\Desktop\is project\index.css.css">
+    </head>
+    <body>
+<img id="movie1" src="https://i.pinimg.com/474x/6b/11/e0/6b11e038117a05e12d93f7540af74ee3.jpg" alt="img">
+<h3><strong>
+Description:</strong>
+</h3>
+
+<p id="desc"> A young and parentless girl adopts a 'dog' from the local pound, completely unaware that it's supposedly a dangerous scientific experiment that's taken refuge on Earth and is now hiding from its creator and those who see it as a menace</p>
+<p id="desc"> Adventure/Comedy<br>duration: 1h 24m</p>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" id="buttonForList">Select set number</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">6</a>
+    <a href="#">9</a>
+    <a href="#">10</a>
+  </div>
+</div>
+<!--dropdownlistAnimation-->
+<script type = "text/JavaScript">
+     function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+ </script>
+
+    
+</html>

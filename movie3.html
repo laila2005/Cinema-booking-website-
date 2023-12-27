@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="C:\Users\lolo\OneDrive\Desktop\is project\index.css.css">
+    </head>
+    <body>
+        <div class="navbar">
+			<a href="index.html.html">Home</a>
+			
+			<a href="snacks.html">Snacks</a>
+		  </div>
+      <br>
+     
+    <head>
+<link rel="stylesheet" href="C:\Users\lolo\OneDrive\Desktop\is project\index.css.css">
+    </head>
+    <body>
+<img id="movie1" src="https://i.pinimg.com/474x/4c/ce/e1/4ccee10b0b7b595b1940d01b4f2a7cd1.jpg" alt="img">
+<h3><strong>
+Description:</strong>
+</h3>
+
+<p id="desc"> A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love</p>
+<p id="desc"> Adventure/Comedy<br>duration: 1h 23m</p>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" id="buttonForList">Select set number</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">6</a>
+    <a href="#">9</a>
+    <a href="#">10</a>
+  </div>
+</div>
+<!--dropdownlistAnimation-->
+<script type = "text/JavaScript">
+     function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+ </script>
+
+    
+</html>
